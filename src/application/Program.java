@@ -29,8 +29,14 @@ import chess.ChessPosition;
 		ChessMatch chessMatch = new ChessMatch();
 		List<ChessPiece> captured = new ArrayList<>();
 		
+		UI.clearScreen();
+		System.out.println("Program desenvolved by Alison Ch.'s. ");
+		System.out.println("(Open Source Initiative)");
+		sc.nextLine();
+		
 		while (true){
-			try {
+			
+			 try {
 				UI.clearScreen();
 				UI.printMatch(chessMatch, captured);
 				System.out.println();
@@ -59,7 +65,7 @@ import chess.ChessPosition;
 			catch (InputMismatchException e) {
 				System.out.println(e.getMessage());
 				sc.nextLine();
-			}
+			} 
 			
 		}
 
