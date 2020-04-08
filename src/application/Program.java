@@ -34,7 +34,7 @@ import chess.ChessPosition;
 		System.out.println("(Open Source Initiative)");
 		sc.nextLine();
 		
-		while (true){
+		while (!chessMatch.getCheckMate()) {
 			
 			 try {
 				UI.clearScreen();
@@ -68,6 +68,8 @@ import chess.ChessPosition;
 			} 
 			
 		}
+		UI.clearScreen();
+		UI.printMatch(chessMatch, captured);
 
 	}
 }
