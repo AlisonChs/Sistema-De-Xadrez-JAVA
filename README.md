@@ -5,11 +5,11 @@ Este diretório será utilizado para armazenar o código-fonte de um projeto pes
 
 # 📘 Objetivo
 
-O objetivo desse exercício, é fundamentar os conceitos da POO de JAVA através da criação de um programa, criando assim um sistema de um Jogo de Xadrez padrão.
+O objetivo desse projeto, é fundamentar os conceitos da POO de JAVA através da criação de um programa, criando assim o sistema de um jogo complexo, que é o xadrez.
 
 # 🔥 Como utilizar
 
-❗ Iniciar - Versão Visual (Aplicação Java)
+❗ Iniciar - Versão Visual (Aplicação Java) <br>
 Para iniciar a versão visual do sistema utilize os comandos:
 
 ```bash 
